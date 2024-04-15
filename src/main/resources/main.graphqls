@@ -1,0 +1,14 @@
+type Query {
+    actors: [Actor]!
+}
+type Actor {
+    id: ID!
+    name: String!
+    movie: movie!
+
+}
+type movie {
+    uri: ID!
+    name: String!
+
+}
